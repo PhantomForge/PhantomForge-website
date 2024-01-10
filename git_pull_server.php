@@ -1,3 +1,3 @@
 <?php
-exec("git pull https://github.com/PhantomForge/PhantomForge-website.git main");
+exec("git pull https://github.com/PhantomForge/PhantomForge-website.git");
 echo("This page will pull the website from the Github repository.")?>
