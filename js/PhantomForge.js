@@ -26,4 +26,12 @@ document.addEventListener("DOMContentLoaded", function() {
         // Navigeer naar de gewenste website
         window.location.href = "../Voodoo-Fortress-Website-main/extra-html/more-information.html";
     });
+    var more_info_contact = document.getElementById("more_info_contact");
+
+    // Voeg een click-eventlistener toe aan de knop
+    more_info_contact.addEventListener("click", function() {
+        // Navigeer naar de gewenste website
+        window.location.href = "../contact us/more info contact/more info.html";
+    });
 });
+
